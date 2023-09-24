@@ -78,6 +78,9 @@ nnoremap <leader>l :action RecentLocations<CR>
 nnoremap <leader>h  :action LocalHistory.ShowHistory<CR>
 nnoremap ge :action GotoNextError<CR>
 nnoremap gE :action GotoPreviousError<CR>
+nnoremap <leader>w v:action EditorSelectWord<CR>
+noremap <leader>w :action EditorSelectWord<CR>
+
 
 
 "sarch and nav
