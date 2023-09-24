@@ -41,9 +41,9 @@ let mapleader=" "
 "map \b <Action>(ToggleLineBreakpoint)
 
 "window nacigation
-nnoremap <c-\> :action SplitVertically<CR>
-nnoremap <c--> :action SplitHorizontally<CR>
-nnoremap <c-=> :action Unsplit<CR>
+nnoremap <c--> :action SplitVertically<CR>
+nnoremap <c-s--> :action SplitHorizontally<CR>
+nnoremap <c-s-0> :action Unsplit<CR>
 nnoremap <c-m> :action MoveEditorToOppositeTabGroup<CR>
 sethandler <c-j> a:vim
 sethandler <c-k> a:vim
